@@ -11,4 +11,9 @@ weed master -mdir=/home/ubuntu/weedfs
 weed volume -dir="/home/ubuntu/weedfs/data1" -mserver="localhost:9333"  -port=8080
 weed filer -port=8888
 ```
+change configure file to use in memory object server
+```
+# in /etc/swift/object-server/
+ls | xargs sed -i "s/swift#object/swift#mem_object/"
+```
 filter server define in seaweedfs_operation.py
