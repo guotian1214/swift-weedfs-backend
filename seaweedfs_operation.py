@@ -47,25 +47,3 @@ class Seaweedfs_operation():
         """
         url_split = url.split('/')
         return url_split[1],url_split[2],url_split[3]
-
-# if __name__ == '__main__':
-#     test = Seaweedfs_operation()
-#     account = u"AUTH_test"
-#     container = u"memtest"
-#     obj_name = u"aaaaa.txt"
-#     obj_content = u"12345678901234567890"
-#     url = "/AUTH_test/memtest/aaaaa.txt"
-#     import StringIO
-#     obj = StringIO.StringIO("test111")
-#     obj.seek(0,2)
-#     metadata = {'a':'a1','b':'b1'}
-#     obj.write('\n' + str(metadata))
-#     obj.seek(0)
-#     # test.PUT(url,obj.read())   #pass
-#     # test111 = test.GET(url)   # pass
-#     # print test111
-#     # print test.DELETE(url)
-#     test111 = test.GET(url)   # pass
-#     print test111
-# # #     print test.GET(account,container,obj_name)
-# #     print test111.rfind("\n")
