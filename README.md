@@ -16,4 +16,4 @@ change configure file to use in memory object server
 # in /etc/swift/object-server/
 ls | xargs sed -i "s/swift#object/swift#mem_object/"
 ```
-filter server define in seaweedfs_operation.py
+seaweedfs filter server can be set in seaweedfs_operation.py
