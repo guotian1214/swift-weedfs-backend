@@ -4,7 +4,7 @@ seaweedfs backend for openstack-swift
 1. bases on mem_diskfile
 2. make a little change about seaweedfs CLI [pyseaweed](https://github.com/utek/pyseaweed)
 
-## usage
+## usage   
 start seaweedfs
 ```
 weed master -mdir=/home/ubuntu/weedfs
